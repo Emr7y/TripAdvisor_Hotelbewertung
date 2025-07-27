@@ -26,12 +26,9 @@ Modell und Vektorisierer sind in `.pkl`-Dateien gespeichert und in der App integ
 ## 📁 Projektstruktur
 
 ```bash
-├── app.py                     # Streamlit-App für Sentimentanalyse
+├── trip.py                     # Streamlit-App für Sentimentanalyse
 ├── model.pkl                  # Gespeichertes Modell
-├── tfidf_vectorizer.pkl       # TF-IDF-Vektorisierer
-├── submission_demo.csv        # Beispielhafte Submission (mit echten Labels)
-├── requirements.txt           # Python-Abhängigkeiten
-├── README.md                  # Projektbeschreibung
+├── tfidf.pkl       # TF-IDF-Vektorisierer
 └── data/
     └── tripadvisor_reviews.csv  # Optional: Originaldatensatz
 ```
